@@ -36,11 +36,11 @@ Hello! Welcome to my portfolio. I hope you enjoy my findings of this class corpu
 
 A friend and I made a few songs in the Christmas Holidays in 2024. I wanted to use these songs, because of how much time we spend making them in my friends basement, where we never saw the light of day.  
 
-I actually wrote the first song 'lennart-p-1' in high school for an assignment. We recorded this in her basement. She plays the keys and I play guitar, which is why these will be the most dominant instruments. The song has a long build-up using reoccurring themes which eventually harmonize together. The ending is somewhat faster and more aggressive, to create some contrast in the song, to add some spice!
+I actually wrote the first song 'lennart-p-1' in high school for an assignment. The real title of this song is "Feeling Free", which is based on the feeling of a late night bicycle ride. We recorded this in her basement. She plays the keys and I play guitar, which is why these will be the most dominant instruments. The song has a long build-up using reoccurring themes which eventually harmonize together. The ending is somewhat faster and more aggressive, to create some contrast in the song, to add some spice!
 
-We wrote the second song 'lennart-p-2' together in the basement. It started somewhat as a pop song, but gradually changed to some kind of rock symphony? I like to look at it that way. We wanted to express our skill in the sounds of the instruments and technique in the solo's. We put many hours in this one.
+We wrote the second song 'lennart-p-2' together in the basement. This songs real title is "Retake The Long Day", which is based on the many retakes and long days of recording. It started somewhat as a pop song, but gradually changed to some kind of rock symphony? I like to look at it that way. We wanted to express our skill in the sounds of the instruments and technique in the solo's. We put many hours in this one.
 
-I recommend to listen to the songs while looking at the grams and descpritions. 
+I recommend to listen to the songs while looking at the grams and descriptions.
 
 Enjoy!
 
@@ -173,7 +173,7 @@ This spectogram shows the chromagram of 'lennart-p-1'. From this chromagram we c
 
 ***
 
-#### lennart-p-2 timbre
+#### lennart-p-1 Cepstogram
 ```{r}
 "C:/ComMus/ComMus/features/features/lennart-p-1.json" |>                           # Change the track
   compmus_mfccs(norm = "euclidean") |>                  # Change the norm
@@ -218,6 +218,8 @@ This song is in G minor, because of the G, Bb, D, or in Eb major, because of Eb,
 
 ***
 
+#### lennart-p-2 Cepstogram
+ 
 ```{r}
 "C:/ComMus/ComMus/features/features/lennart-p-2.json" |>                           # Change the track
   compmus_mfccs(norm = "euclidean") |>                  # Change the norm
@@ -864,4 +866,7 @@ In this plot, you can see that the higher the 'instrumentalness' is, the lower t
 
 ### Conclusion
 
-Thank you for reading! I hope my findings were insightful and interesting. Shout out to my friend Joleine who helped writing the second song and shout out to fellow students who helped me with some issues. 
+I hope my findings were insightful and interesting. 
+I liked how well the similarity-matrices worked to analyse the structure of the songs. Also the novelty functions seemed to point out interesting changes in the songs. Also very interesting that the chroma features of the AI songs didn't seem to be too different from the non-AI songs. 
+Shout out to my friend Joleine who helped writing the second song and shout out to fellow students who helped me with some issues. 
+Thank you for reading! 
