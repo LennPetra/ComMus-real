@@ -1,6 +1,6 @@
 ---
-title: "This is my title"
-author: "Lenny"
+title: "A Computational Musical study"
+author: "Lennart Petra"
 output: 
   flexdashboard::flex_dashboard:
      storyboard: true
@@ -40,6 +40,9 @@ I actually wrote the first song 'lennart-p-1' in high school for an assignment. 
 
 We wrote the second song 'lennart-p-2' together in the basement. It started somewhat as a pop song, but gradually changed to some kind of rock symphony? I like to look at it that way. We wanted to express our skill in the sounds of the instruments and technique in the solo's. We put many hours in this one.
 
+I recommend to listen to the songs while looking at the grams and descpritions. 
+
+Enjoy!
 
 ### compmus2025.csv
 #### Class corpus
@@ -103,7 +106,6 @@ compmus2025 |>                   # Start with the data
     y = "Engagingness",
     colour = "Arousal"
   )
-ggplotly()
 ```
 
 ***
@@ -542,6 +544,10 @@ ggplot(compmus2025, aes(x= tempo)) + geom_histogram(binwidth = 5, fill = "orange
   theme_classic()
 ```
 
+***
+In this histogram you can see that there is a high peak at 150 BPM, which is really fast. I think this is the result of mistakes of tempo determination.
+
+***
 
 #### Energy Novelty lennart-p-1
 
@@ -858,7 +864,4 @@ In this plot, you can see that the higher the 'instrumentalness' is, the lower t
 
 ### Conclusion
 
-***
-Blank for now
-
-***
+Thank you for reading! I hope my findings were insightful and interesting. Shout out to my friend Joleine who helped writing the second song and shout out to fellow students who helped me with some issues. 
