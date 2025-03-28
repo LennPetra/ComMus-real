@@ -869,4 +869,4 @@ In this plot, you can see that the higher the 'instrumentalness' is, the lower t
 I hope my findings were insightful and interesting. 
 I learned many ways to analyze music on this low level (digital audio), instead of high level (e.g. sheet music analysis). I learned to analyze on all 4 'moments' in music: pitch, volume, timbre and tempo. I liked how well the similarity-matrices worked to analyse the structure of the songs. Also the novelty functions seemed to point out interesting changes in the songs. Also very interesting that the chroma features of the AI songs didn't seem to be too different from the non-AI songs. 
 Shout out to my friend Joleine who helped writing the second song and shout out to fellow students who helped me with some issues. 
-Thank you for reading! 
+Thank you for reading!
